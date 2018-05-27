@@ -3,6 +3,7 @@
 
 # Visual Studio 2015 database file
 *.VC.db
+*.VC.opendb
 
 # Compiled Object files
 *.slo
@@ -41,8 +42,19 @@
 *.suo
 *.opensdf
 *.sdf
-*.VC.db
-*.VC.opendb
+*.pri
+*.pro
+*.user
+*.workspace
+*.code-workspace
+*LitePreProcessor.txt
+*CompletionFolders.txt
+*.kdev4
+CMakeLists.txt
+Makefile
+*/.idea/*
+*/.kdev4/*
+*/.vscode/*
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -75,3 +87,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore Starter Assets
+Content/StarterContent/*
+
+# Ignore Core (shehab)
+core
+
